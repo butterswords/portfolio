@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Reflections on my first Kaggle Collaboration | Butterswords</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Reflections on my first Kaggle Collaboration" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An exploration of working with a friend to dive into machine learning." />
+<meta property="og:description" content="An exploration of working with a friend to dive into machine learning." />
+<link rel="canonical" href="https://butterswords.github.io/portfolio/kaggle/nlp/journey/2022/01/17/my-first-real-kaggle-collaboration.html" />
+<meta property="og:url" content="https://butterswords.github.io/portfolio/kaggle/nlp/journey/2022/01/17/my-first-real-kaggle-collaboration.html" />
+<meta property="og:site_name" content="Butterswords" />
+<meta property="og:image" content="https://butterswords.github.io/portfolio/images/stacking-classifier-cm.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-17T00:00:00-06:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://butterswords.github.io/portfolio/images/stacking-classifier-cm.png" />
+<meta property="twitter:title" content="Reflections on my first Kaggle Collaboration" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-01-17T00:00:00-06:00","datePublished":"2022-01-17T00:00:00-06:00","description":"An exploration of working with a friend to dive into machine learning.","headline":"Reflections on my first Kaggle Collaboration","image":"https://butterswords.github.io/portfolio/images/stacking-classifier-cm.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://butterswords.github.io/portfolio/kaggle/nlp/journey/2022/01/17/my-first-real-kaggle-collaboration.html"},"url":"https://butterswords.github.io/portfolio/kaggle/nlp/journey/2022/01/17/my-first-real-kaggle-collaboration.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/portfolio/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://butterswords.github.io/portfolio/feed.xml" title="Butterswords" /><!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQ6448FFZ3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QQ6448FFZ3');
+</script>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/portfolio/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/portfolio/">Butterswords</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/portfolio/about/">About Me</a><a class="page-link" href="/portfolio/search/">Search</a><a class="page-link" href="/portfolio/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Reflections on my first Kaggle Collaboration</h1><p class="page-description">An exploration of working with a friend to dive into machine learning.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-01-17T00:00:00-06:00" itemprop="datePublished">
+        Jan 17, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      12 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/portfolio/categories/#Kaggle">Kaggle</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/portfolio/categories/#NLP">NLP</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/portfolio/categories/#Journey">Journey</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h2"><a href="#setting-goals">Setting goals</a></li>
+<li class="toc-entry toc-h2"><a href="#developing-a-process-that-works-for-collaborating">Developing a process that works for collaborating</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#merging-teams-and-then-code">Merging teams and then code</a></li>
+<li class="toc-entry toc-h3"><a href="#developing-in-github-vs-kaggle">Developing in Github vs Kaggle</a></li>
+<li class="toc-entry toc-h3"><a href="#developing-different-methodologies-based-on-different-tutorials">Developing different methodologies based on different tutorials</a></li>
+<li class="toc-entry toc-h3"><a href="#testing-methodologies-comparing-results-and-choosing-a-model-to-submit">Testing methodologies, comparing results, and choosing a model to submit</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#key-learnings-from-the-experience">Key learnings from the experience</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#collaboration">Collaboration</a></li>
+<li class="toc-entry toc-h3"><a href="#data-science">Data Science</a></li>
+</ul>
+</li>
+</ul><p>Transitioning from coursework to practical application is difficult. It’s one thing to take courses on <a href="https://courses.edx.org/certificates/e9d54176a53e4e698b840551d926d81b">Data Analysis for Social Science</a> or <a href="https://courses.edx.org/certificates/16f7b5c12d0046148de4edf9a61ae369">Probability - The Science of Uncertainty and Data</a>. They provide a solid foundation and theoretical framework to work with. It’s another to apply that and achieve results. I struggled a lot with finding ways to make use of what I’m learning because my previous jobs have been in SEO (Search Engine Optimization) and did not afford me the time or freedom to do it through my work. In November of 2021 I reached out to a friend of mine to see if he had any interest in exploring machine learning. To my great joy it turned out he did and we agreed to team up and try to do some Kaggle competitions together.</p>
+
+<p>We decided to tackle the <a href="https://www.kaggle.com/c/nlp-getting-started/">Natural Language Processing with Disaster Tweets</a> as a good entry point into the world of Kaggle Competitions. The rest of this post describes our process and my personal learnings.</p>
+
+<blockquote>
+  <p>Note: I am focusing on NLP (Natural Language Processing) because there are many ways I can incorporate it into my work, which will only serve to reinforce everything I’m learning along the way.</p>
+</blockquote>
+
+<h2 id="setting-goals">
+<a class="anchor" href="#setting-goals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setting goals</h2>
+<p>I find a good place to start any project is with concrete goals and how to work together. It comes from years managing projects across organizations and clients where success depends on how well you understand the end state at the front. We took time in our first meeting to set the groundwork, below are the list of the goals we came up with.</p>
+
+<p>The goals of our first project:</p>
+<ul>
+  <li>Test Kaggle Notebooks to see how they work and the odd nuances that come with a specific product</li>
+  <li>Classify tweets as 1 (pertaining to a disaster) or 0 (not pertaining to a disaster)</li>
+  <li>Get comfortable working as a team</li>
+  <li>Get a better sense of using NLP for text classification</li>
+</ul>
+
+<h2 id="developing-a-process-that-works-for-collaborating">
+<a class="anchor" href="#developing-a-process-that-works-for-collaborating" aria-hidden="true"><span class="octicon octicon-link"></span></a>Developing a process that works for collaborating</h2>
+<p>While we had explicit goals, we did not have any process for achieving them. We’re two friends after all and so we just decided to wing it. That worked surprisingly well, all things considered. I did a lot of research and exploration and then we worked together to refine things as we ran into problems.</p>
+
+<h3 id="merging-teams-and-then-code">
+<a class="anchor" href="#merging-teams-and-then-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Merging teams and then code</h3>
+<p>Kaggle has some really excellent tools that you get access to for free. Each person having the ability to work in a notebook with access to GPUs is excellent. We initially started our work separately, and then about two weeks into the process we decided to merge our work and create a team. The creating a team part was simple and seamless. The merging of code was completely manual. I can’t blame Kaggle for that, they give you a bunch of stuff for free. It’s just one of those aspects of the learning curve that I feel is unavoidable. If I were to do it again I would say:</p>
+
+<ul>
+  <li>Do not start your project in separate notebooks on Kaggle unless you plan to merge very early</li>
+  <li>Make sure the person who has more detailed code becomes team lead</li>
+  <li>Copy your notebook locally before merging teams so that you can merge code later with ease</li>
+</ul>
+
+<p>Once the team was formed we had to figure out how we were going to do all of our future development. This lead to some interesting discoveries about versioning on Kaggle.</p>
+
+<h3 id="developing-in-github-vs-kaggle">
+<a class="anchor" href="#developing-in-github-vs-kaggle" aria-hidden="true"><span class="octicon octicon-link"></span></a>Developing in Github vs Kaggle</h3>
+<p>Once we had built a team we both tried to go into the notebook and start to work synchronously. First, there’s no functionality to allow for simultaneous editing (not a big deal as it’s all free) and no concept of branches or pull requests that I could find. This became much more problematic as we realized that Kaggle doesn’t always default you to the last edited version, but rather the last version you touched. When you want to go to an updated version you have to “revert” to it, which doesn’t really make sense if you’re on v8 and the latest is v14. This through me for a loop more than once.</p>
+
+<p>A saving grace, at least for me, was that Kaggle allows you to import notebooks directly from Github. That allowed me to download the latest version and then work locally (like a branch native to Github) and then I would pull from Github when I was ready to push it back into the Kaggle environment. The functionality for that is very basic, however, which made for some interesting renaming of repositories.</p>
+
+<p><img src="/portfolio/images/kaggle-github-int.png" alt="" title="Importing from Github into Kaggle"></p>
+
+<ol>
+  <li>There’s a quickselect for Github, which is nice.</li>
+  <li>The search functionality is powerful, but flawed. There should be an option to select only from private repositories connected to your account, not just an inclusion of those in your search results.</li>
+  <li>The upload is nearly instantaneous depending on size of the file and your internet speed</li>
+</ol>
+
+<p>It was much easier for me to develop in Github than directly in Kaggle because I could use my Jupyter Lab settings and keep files locally. One caveat, you have to maintain a line of code for loading data in each cell that allows you to switch between environments. I would likely consider adding a helper class for much larger projects that detects the environment and automatically updates the path for reading files. Though manually switching, see below, isn’t too problematic if you have limited inputs.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="s">'''In this scenario I am editing my notebook on my local machine. 
+So I have commented out the kaggle-specific pathing.'''</span>
+<span class="c1">#sample = pd.read_csv("/kaggle/input/nlp-getting-started/sample_submission.csv")
+</span><span class="n">sample</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">"sample_submission.csv"</span><span class="p">)</span> <span class="c1"># For Local machine
+</span>
+</code></pre></div></div>
+
+<p>At the end of the day, I think it makes a lot more sense to develop non-GPU code in Github. You can then import the notebook into Kaggle to train the models.</p>
+
+<blockquote>
+  <p>note: I have not tried this for GPU-specific projects, like deeplearning for NLP or Computer Vision yet. I may update this line based on my experience when I get there.</p>
+</blockquote>
+
+<h3 id="developing-different-methodologies-based-on-different-tutorials">
+<a class="anchor" href="#developing-different-methodologies-based-on-different-tutorials" aria-hidden="true"><span class="octicon octicon-link"></span></a>Developing different methodologies based on different tutorials</h3>
+<p>Developing asynchronously, we each took a different way to exploring approaches to the problem. We found different Kaggle Tutorials and that led to some very interesting early discoveries. We realized that there were so many ways to approach the problem that it made sense to test our work against each other and see if and how we could improve on one another’s work.</p>
+
+<p>My friend used an <a href="https://www.kaggle.com/philculliton/nlp-getting-started-tutorial">NLP Getting Started Tutorial</a> that is widely viewed and used (roughly 100K views and 2.3K copies). It achieves a base accuracy of around 78%.</p>
+
+<p>I took the approach of incorporating some of the work I was doing through codecademy’s <a href="https://www.codecademy.com/learn/paths/data-science">Data Science Career Path</a> with SKLearn’s tutorial on NLP: <a href="https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html">Working With Text Data</a>. This lead me down several deep rabbit holes, but was richly rewarding for a better understanding of creating pipelines with <code class="language-plaintext highlighter-rouge">sklearn</code>, more on that later. My final model achieved an accuracy of 82.08%, which is not an insignificant improvement over the original. Though admittedly it was more complicated and less efficient.</p>
+
+<p>Below is a simple look at all the libraries we ended up including based on our work together.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1">#Import all major libraries we'll need to create and run our models
+</span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span> <span class="c1"># linear algebra
+</span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span> <span class="c1"># data processing, CSV file I/O (e.g. pd.read_csv)
+</span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span> <span class="c1">#Standard for building Training and Test sets in data
+</span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span> <span class="c1"># To process what we need
+</span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">GridSearchCV</span> <span class="c1">#To optimize our model's parameters
+</span><span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">make_pipeline</span> <span class="c1">#To make a pipeline for GridSearchCV
+</span><span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span><span class="p">,</span> <span class="n">CountVectorizer</span> <span class="c1">#Two of our text processing pipelines
+</span><span class="kn">from</span> <span class="nn">sklearn.svm</span> <span class="kn">import</span> <span class="n">LinearSVC</span><span class="p">,</span> <span class="n">SVC</span> <span class="c1">#Loading a Support Vector algorithm to classify the text
+</span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">RidgeCV</span><span class="p">,</span> <span class="n">LogisticRegression</span> <span class="c1">#for StackingRegressor
+</span><span class="kn">from</span> <span class="nn">sklearn.naive_bayes</span> <span class="kn">import</span> <span class="n">MultinomialNB</span> <span class="c1">#Loading a Bayesian algorithm to see if it's more accurate
+</span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">confusion_matrix</span><span class="p">,</span> <span class="n">ConfusionMatrixDisplay</span> <span class="c1">#For Identifying the type of errors
+</span><span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">StackingClassifier</span><span class="p">,</span> <span class="n">RandomForestClassifier</span> <span class="c1">#for attempting to combine multiple models
+</span>
+</code></pre></div></div>
+
+<h3 id="testing-methodologies-comparing-results-and-choosing-a-model-to-submit">
+<a class="anchor" href="#testing-methodologies-comparing-results-and-choosing-a-model-to-submit" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing methodologies, comparing results, and choosing a model to submit</h3>
+<p>Because we took different approaches we wanted to formalize how we evaluated and compared our models to see what we were going to submit. This was mainly for ease of our communication as Kaggle allowed us to submit 5 times a day, and we could do it for as long as we like. We ended up using simple line of code recommended in the documentation and almost every tutorial to evaluate accuracy.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Accuracy: </span><span class="si">{</span><span class="n">svc2</span><span class="p">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">:.</span><span class="mi">3</span><span class="n">f</span><span class="si">}</span><span class="s">%"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>It worked well to gauge between models on the test data. Where it was really informative was in showing us how the performance on test data compared to the competition data. I want to take a moment to note that I use <code class="language-plaintext highlighter-rouge">test</code> here because it is the language used in <code class="language-plaintext highlighter-rouge">sklearn.model_selection.train_test_split</code> and it is better to consider our <code class="language-plaintext highlighter-rouge">test</code> data the <code class="language-plaintext highlighter-rouge">validation</code> data based on my understanding from the FastAI course.</p>
+
+<h2 id="key-learnings-from-the-experience">
+<a class="anchor" href="#key-learnings-from-the-experience" aria-hidden="true"><span class="octicon octicon-link"></span></a>Key learnings from the experience</h2>
+<p>I learned a lot in tackling that first competition. Some of it was mundane (Ex. how to set up environments and move between them) while others were truly enlightening. The ones I will carry with me and want to share are outlined below.</p>
+
+<h3 id="collaboration">
+<a class="anchor" href="#collaboration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Collaboration</h3>
+<p><strong>Working in the same file can be laborious without clear boundaries</strong></p>
+
+<p>As I’ve mentioned previously, Kaggle’s inability to provide branches makes it rather difficult to work on different methods in the same workbook. In addition, having multiple models and preprocessing gets to be a terrifying prospect as your notebook grows and grows alongside your experiments. I ended up commenting out all of my friend’s work in the end so that I could make sure I didn’t accidentally overwrite any of my own or refer to a dependency in the wrong form.</p>
+
+<ul>
+  <li>Communicate clearly what libraries you intend to use</li>
+  <li>Have standardized naming conventions</li>
+  <li>Make sure you use unique names for models, data sets, training sets, etc. so that you don’t run into broken dependencies</li>
+</ul>
+
+<p><strong>A system’s ability to do simultaneous version control is an active constraint for group work</strong></p>
+
+<p>I’m not a developer and so I haven’t used Github extensively. I’ve had an account on and off for years, hoping to dive deeper but without collaboration it just didn’t seem to matter. This project opened my eyes to the criticality of version control, branches, and pull requests. I strongly recommend that any collaborative development be done in an environment that allows for those three things (at the least) to ensure you don’t break everything.</p>
+
+<h3 id="data-science">
+<a class="anchor" href="#data-science" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Science</h3>
+<p><strong>Experimentation with preprocessing leads to insights about the data</strong></p>
+
+<p>Throughout the work I tried various ways of preprocessing the data to make it fit different models in the documentation. I lokoed across multiple sources and pieced them together to create a few things that were novel to me. Below is one example. I wanted to see if adding in indicator variables for missing data could improve the performance of my models. It didn’t, but it lead to me figuring out how to do some very basic data augmentation, something I know I’ll be exploring more as I continue to learn.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1">#Here we'll fill Keywords and Location with "Not Available" to see if this can improve our model. We'll also add indicator columns for missing data to see if that's important.
+</span><span class="k">def</span> <span class="nf">add_indicator</span><span class="p">(</span><span class="n">col</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">].</span><span class="n">isna</span><span class="p">().</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">wrapper</span>
+
+<span class="n">training_clean</span> <span class="o">=</span> <span class="n">training</span><span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">kw_miss</span><span class="o">=</span><span class="n">add_indicator</span><span class="p">(</span><span class="s">"keyword"</span><span class="p">))</span>
+<span class="n">training_clean</span> <span class="o">=</span> <span class="n">training_clean</span><span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">loc_miss</span><span class="o">=</span><span class="n">add_indicator</span><span class="p">(</span><span class="s">"location"</span><span class="p">))</span>
+<span class="n">training_clean</span> <span class="o">=</span> <span class="n">training_clean</span><span class="p">.</span><span class="n">fillna</span><span class="p">(</span><span class="s">"Not Available"</span><span class="p">)</span>
+<span class="n">training_clean</span> <span class="o">=</span> <span class="n">training_clean</span><span class="p">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="s">"target"</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<p><strong>Experimentation from documentation produces limited performance increases</strong></p>
+
+<p>Following some exploration of different architectures within the sklearn documentation I ended up submitting a <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html">StackingClassifier</a> to the competition and achieved 82.01% accuracy. This was a marginal improvement over our previous attempts that ranged from 80% to 81.4%. However, the really cool thing I found in doing it was learning more about how to create pipelines that allow for combining different methods of classification to increase performance. I had one pipeline that used a <code class="language-plaintext highlighter-rouge">CountVectorizer</code> to preprocess the training data for <code class="language-plaintext highlighter-rouge">RandomForestClassifier</code> and <code class="language-plaintext highlighter-rouge">SVC</code> classifiers. I also used a <code class="language-plaintext highlighter-rouge">TfidfVectorizer</code> that preprocessed the data for <code class="language-plaintext highlighter-rouge">MultinomialNB</code> and <code class="language-plaintext highlighter-rouge">LogisticGregression</code> classifiers. This allowed me to combine four separate estimators before learning the final classifier on another <code class="language-plaintext highlighter-rouge">SVC</code>. While this is an inefficient way to train models, especially as it did not provide significant performance. I found it to be a great opportunity to explore different workflows.</p>
+
+<p>Below is a picture of the Confusion Matrix for the final <code class="language-plaintext highlighter-rouge">StackingClassifier</code> that highlights how it performed. Doing this over again I would look deeper into what was causing the false negatives to see if I needed to do data augmentation or select better hyperparameters to improve the model by a larger margin.</p>
+
+<p><img src="/portfolio/images/stacking-classifier-cm.png" alt="" title="Stacking Classifier Confusion Matrix"></p>
+
+<p>My biggest takeaway regarding Data Science is that experimentation and adjusting hyperparameters are critical parts of developing an accurate model. It feels a bit like trial and error, relying heavily on intuition, and you have to understand how they affect the underlying architecture, individually and in aggregate, to make the most of them. This is part of why I am working my way through the <a href="https://course.fast.ai/">FastAI Course</a>. I want to develop better intuitions and a deeper understanding of the theory underpinning the architectures so I can make better choices.</p>
+
+  </div><a class="u-url" href="/portfolio/kaggle/nlp/journey/2022/01/17/my-first-real-kaggle-collaboration.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/portfolio/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/portfolio/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/portfolio/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>The Data Science Portfolio of Nathan Butters.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/butterswords" target="_blank" title="butterswords"><svg class="svg-icon grey"><use xlink:href="/portfolio/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/Nathan_Butters" target="_blank" title="Nathan_Butters"><svg class="svg-icon grey"><use xlink:href="/portfolio/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
