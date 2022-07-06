@@ -2,7 +2,7 @@
 toc: false
 layout: post
 description: "Notes from the workshop to continue the conversation."
-categories: [FAccT 2022, Conference, Reflections]
+categories: [FAccT_2022, Conference, Reflections]
 image: https://facctconference.org/static/images/2022tiger.png
 title: "CRAFT 61: Big Data and AI in the Global South"
 ---
