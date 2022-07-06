@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 layout: post
 description: "Notes from the workshop to continue the conversation."
 categories: [FAccT 2022, Conference, Reflections]
