@@ -18,16 +18,16 @@ I still prefer to do projects and so a lot of my reading is through audiobooks a
 
 ## Highlights of what I have read since 2021
 
-* [*Sand Talk; How Indigenous Thinking Can Save the World*](https://www.harpercollins.com/products/sand-talk-tyson-yunkaporta), Tyson Yunkaporta - Audio and Physical - In queue
-* [*The Age of Surveillance Capitalism*](https://shoshanazuboff.com/book/about/), Shoshana Zuboff - Audio and Physical - In queue
-* [*This is How they Tell Me the World Ends: The Cyberweapons Arms Race*](https://thisishowtheytellmetheworldends.com/), Nicole Perlroth - Audio - In queue
-* [*Race after Technology: Abolinist Tools for the New Jim Code*](https://www.ruhabenjamin.com/race-after-technology), Ruha Benjamin - Audio - Need to reread
-* [*The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World*](https://en.wikipedia.org/wiki/The_Master_Algorithm), Pedro Domingos - Audio and Physical - Need to reread
-* [*The Alignment Problem: Machine Learning and Human Values*](https://brianchristian.org/the-alignment-problem/), Brian Christian - Audio - Need to reread
-* [*Algorithms of Oppression: How Search Engines Reinforce Racism*](https://safiyaunoble.com/research-writing/), Safiya Umoja Noble - Audio - Need to reread
-* [*Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy*](https://mathbabe.org/), Cathy O'Neil - Audio - Need to reread
-* [*The Tyranny of Merit: What's Become of the Common Good?*](https://us.macmillan.com/books/9780374289980/thetyrannyofmerit), Michael J. Sandel - Audio - Deferred
-* [*The Signal and the Noise: Why So Many Predictions Fail - but Some Don't*](https://www.penguinrandomhouse.com/books/305826/the-signal-and-the-noise-by-nate-silver/), Nate Silver - Audio - Deferred
+* [*Sand Talk; How Indigenous Thinking Can Save the World*](https://www.harpercollins.com/products/sand-talk-tyson-yunkaporta), Tyson Yunkaporta - Audio and Physical
+* [*The Age of Surveillance Capitalism*](https://shoshanazuboff.com/book/about/), Shoshana Zuboff - Audio and Physical
+* [*This is How they Tell Me the World Ends: The Cyberweapons Arms Race*](https://thisishowtheytellmetheworldends.com/), Nicole Perlroth - Audio
+* [*Race after Technology: Abolinist Tools for the New Jim Code*](https://www.ruhabenjamin.com/race-after-technology), Ruha Benjamin - Audio
+* [*The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World*](https://en.wikipedia.org/wiki/The_Master_Algorithm), Pedro Domingos - Audio and Physical
+* [*The Alignment Problem: Machine Learning and Human Values*](https://brianchristian.org/the-alignment-problem/), Brian Christian - Audio
+* [*Algorithms of Oppression: How Search Engines Reinforce Racism*](https://safiyaunoble.com/research-writing/), Safiya Umoja Noble - Audio
+* [*Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy*](https://mathbabe.org/), Cathy O'Neil - Audio
+* [*The Tyranny of Merit: What's Become of the Common Good?*](https://us.macmillan.com/books/9780374289980/thetyrannyofmerit), Michael J. Sandel - Audio
+* [*The Signal and the Noise: Why So Many Predictions Fail - but Some Don't*](https://www.penguinrandomhouse.com/books/305826/the-signal-and-the-noise-by-nate-silver/), Nate Silver - Audio
 
 
 ## What I will read soon
@@ -46,7 +46,7 @@ I still prefer to do projects and so a lot of my reading is through audiobooks a
 * [*Now you See it*](http://www.stephen-few.com/nysi.php), Stephen Few
 * [*Information Dashboard Design*](http://www.stephen-few.com/idd.php), Stephen Few
 * [*The Visual Display of Quantitative Information*](https://www.edwardtufte.com/tufte/books_vdqi), Edward Tufte
- * I have all of his books.
+  * I have all of his books.
 
 ### Religious Studies
 * [*Sickness unto Death*](https://en.wikipedia.org/wiki/The_Sickness_unto_Death), Søren Kierkegaard
