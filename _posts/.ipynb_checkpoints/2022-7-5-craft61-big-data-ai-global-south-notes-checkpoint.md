@@ -16,13 +16,15 @@ I was honored to be able to listen, learn, and engage with the keynote speakers 
 
 The event was at a convenient time for me (12:30pm to 4pm PDT). It was inconvenient, even unreasonable, for almost all other attendees and the presenters who had to be up in the middle of the night for hours to participate. I am disappointed in the timing of this event and have voiced my concerns to the conference. I hope future conferences learn from this and find timing that is more convenient for the speakers. The irony is not lost on me that this session enacted the very power asymmetry it was critiquing.
 
-The second point is something I am struggling to put into words more clearly. I exist on the periphery of power within every organization I belong to. I consistently advocate for others who are excluded to have a voice and challenge dominant power structures. This tends to make me seem like a threat to my managers and executives because I am not okay with just doing the work to make the company money. I believe I have to do it in a way that promotes human flourishing. At the same time, reflecting on everything that was said during the workshop and the issues at play with internet quality, timing, etc. I realized how I may (or “must”, I’m unsure about this) come across to others. It was truly humbling and reinforces how much I consider myself peripheral to the work of bringing diverse, under appreciated voices towards the center.
+The second point is something I am struggling to put into words more clearly. I exist on the periphery of power within every organization I belong to. I consistently advocate for others who are excluded to have a voice and challenge dominant power structures. This tends to make me seem like a threat to my managers and executives because I am not okay with just doing the work to make the company money. I believe I have to do it in a way that promotes human flourishing. 
+
+Reflecting on everything that was said during the workshop and the issues at play with internet quality, timing, etc. I realized how I may (or “must”, I’m unsure about this) come across to others. It was truly humbling and reinforces how much I consider myself peripheral to the work of bringing diverse, under appreciated voices towards the center.
 
 The critical themes I’m taking from the workshop:
-1) The social construction, and usage, of data demands that we refrain from the impulse to universalize and focus on relational meaning
-2) Theory and practice both need to originate from the Global South to be truly beneficial to those communities
-3) Inequality, power asymmetry, and colonization are likely to grow with greater adoption of AI until we can achieve the first two points
-4) My own addition: I believe the field of AI needs to draw from the depth of thought in the humanities, acknowledging that they are also centered in the Global North, to avoid recreating the wheel and further eroding language with more jargon or siloing
+1. The social construction, and usage, of data demands that we refrain from the impulse to universalize and focus on relational meaning
+2. Theory and practice both need to originate from the Global South to be truly beneficial to those communities
+3. Inequality, power asymmetry, and colonization are likely to grow with greater adoption of AI until we can achieve the first two points
+4. My own addition: I believe the field of AI needs to draw from the depth of thought in the humanities, acknowledging that they are also centered in the Global North, to avoid recreating the wheel and further eroding language with more jargon or siloing
 
 # Keynotes
 
@@ -110,7 +112,8 @@ Another attendee asked whether there are good models in technology prior to AI t
 Chinasa’s paper represents an excellent opportunity to reflect on how XAI is being used in the Global South by people who may not be aware of or intentional about the needs of those in the context they are working. It seems like a great starting point for having a conversation about what it means to “bring AI to underserved people” and how researchers need to consider how their work capitalizes, reinforces, or creates inequities.
 
 ## Aprajita Bhandari 
-From Cell Phones to Crisis Mapping: Datafication of Humanitarian Aid as Enactments of Neo-Colonial Power
+**From Cell Phones to Crisis Mapping: Datafication of Humanitarian Aid as Enactments of Neo-Colonial Power** 
+
 She discussed her work researching how data can be used during and after disasters to create surveillance of citizens and then export that data for the benefit of others. The context was an earthquake in Nepal in 2015, where thousands of people died. A non-profit (flowminder.org) partnered with the service provider (Ncell) to do a data collaboration. They shared the data with the UN in the name of aiding those affected by the earthquake.
 
 Questions she asks
@@ -139,7 +142,9 @@ A few of the questions from the group
   * How would you even think about bringing power back to the people?
 
 ### My Key Takeaway
-Aprajita’s work highlights the criticality of protecting decision rights for individuals and communities. When other “interested” parties get involved without engaging the communities throughout the process there will always be issues of power and authority. One of the biggest things I felt upon listening to her work was how reactive all of these implementations of AI are and therefore how critical it is to have protections in place ahead of disasters. It reinforces the need to drive policy to protect people proactively. In Washington state there is a very real fear of a major earthquake in the next 5-15 years, if that event occurs it could destroy large parts of Seattle and the coastal residences around the Puget Sound. Washington has failed to pass consumer privacy acts that would protect people’s personal information. In a situation like the one Aprajita describes, “well intentioned” organizations could co-opt “aid” to gather a tremendous amount of personal data. 
+Aprajita’s work highlights the criticality of protecting decision rights for individuals and communities. When other “interested” parties get involved without engaging the communities throughout the process there will always be issues of power and authority. One of the biggest things I felt upon listening to her work was how reactive all of these implementations of AI are and therefore how critical it is to have protections in place ahead of disasters. It reinforces the need to drive policy to protect people proactively. 
+
+In Washington state there is a very real fear of a major earthquake in the next 5-15 years, if that event occurs it could destroy large parts of Seattle and the coastal residences around the Puget Sound. Washington has failed to pass consumer privacy acts that would protect people’s personal information. In a situation like the one Aprajita describes, “well intentioned” organizations could co-opt “aid” to gather a tremendous amount of personal data. 
 
 Questions I have:
 * Are residents of WA more vulnerable due to their proximity to Tech companies like Amazon, Microsoft, Google, AT&T, T-Mobile, Verizon, and the like?
@@ -147,7 +152,8 @@ Questions I have:
 * Can we use this situation as a thought experiment to alter the focus, asking the question “how would we want this to be used on us?” Would we then be able to bring a new perspective to working with communities in the Global South that becomes more of a dialogue and less of an imposition?
 
 ## Abdullah Hasan Safir
-Digital Divide Using Data Science Techniques
+**Digital Divide Using Data Science Techniques**
+
 Abdullah explored internet access using visualization methods to highlight some aspects of how data visualization may reinforce the inequalities in the data. He applied K-means clustering using 213 countries of the world into three clusters. His argument was that visualizations and analytical techniques can recreate inequalities.
 
 Data
@@ -167,7 +173,11 @@ Visualizations
   * Then show the clusters on the world map
 
 ### My Key Takeaway
-Data visualization is both an art and a science. Some of the points made about visual analysis are well known in the field, and require individual creators to make choices that best fit their data, audience, and intentions. One of the others, specifically the choropleth of the world map, reiterated something I’ve struggled with. Who determines what countries are recognized, and how they are labeled, within products? Since most are created in the Global North, there is a fundamental imposition of values and worldviews that propagate any time we use these technologies. Does your map recognize Congo as two nations? If so, what names does it use? For other countries with complex colonial histories, what name is used and does it match the way the people who live there refer to themselves?
+Data visualization is both an art and a science. Some of the points made about visual analysis are well known in the field, and require individual creators to make choices that best fit their data, audience, and intentions. One of the others, specifically the choropleth of the world map, reiterated some things I’ve struggled with:
+* Who determines what countries are recognized, and how they are labeled, within products? 
+* Since most are created in the Global North, there is a fundamental imposition of values and worldviews that propagate any time we use these technologies. Does your map recognize Congo as two nations? 
+  * If so, what names does it use? 
+* For other countries with complex colonial histories, what name is used and does it match the way the people who live there refer to themselves?
 
 ## Mohammad Rashidujjaman Rifat
 He explored what it was like working with religious communities around technology and AI. He brought up two case studies: 2017 in Bangladesh and 2020 (I didn’t capture where). I have captured some of his statements and quotes of participants to the best of my ability. Consider any quotes to be highly suspect unless you verify them directly with him.
@@ -193,10 +203,15 @@ Questions
 * How does this connect to the ideas of justice and fairness in AI?
 
 ### My Key Takeaway
-Religion and technology are two things I’m fairly familiar with. When listening to Mohammad speak I kept focusing on the ideas of insider and outsider (aka. emic and etic), as it exists in linguistics and sociology. Who holds the truth in these situations is a fundamental question for qualitative research that continues to be debated in these fields. For the work of justice and fairness in AI, as posed in the last question, I find that it relates back to what Dr. Rangaswamy mentioned at the end of her keynote on understanding all data as socially created. To find solutions for communities such as the ones described within Mohammad’s case studies one must ask whether to privilege the views of the community or the observer. One must negotiate the needs of all parties involved to identify something that is both practical and minimizes harm. This is something I aim to explore more.
+Religion and technology are two things I’m fairly familiar with. When listening to Mohammad speak I kept focusing on the ideas of insider and outsider (aka. emic and etic), as it exists in linguistics and sociology. Who holds the truth in these situations is a fundamental question for qualitative research that continues to be debated in these fields. 
+
+For the work of justice and fairness in AI, as posed in the last question, I find that it relates back to what Dr. Rangaswamy mentioned at the end of her keynote on understanding all data as socially created. To find solutions for communities such as the ones described within Mohammad’s case studies one must ask whether to privilege the views of the community or the observer. 
+
+One must negotiate the needs of all parties involved to identify something that is both practical and minimizes harm. This is something I aim to explore more.
 
 ## Sharifa Sultana
 **Big Data, AI, and Misinformation in the Global South**
+
 Sharifa discussed some ethnographic techniques to work with people in Bangladesh. They studied fact checking and social effects in rural Bangladesh villagers in the Covid-19 pandemic and what is or is not “misinformation”. An example of misinformation was someone “selling amulets on the street claiming they could cure Covid-19”. It is hard to check facts because in Bangladesh only 3 entities are authorized for fact-checking. Very few people engage with them; it is mostly news agencies. Therefore, rural villagers rely on social experts' opinions to create their understanding and gauge veracity. 
 * Since these are not categorized as "rational" how do AI systems account for these?
 * How can we make these systems more tolerant of alternate ways of seeing the world?
@@ -212,6 +227,7 @@ Much of what Sharifa said resonated with Mohammad’s observations and Dr. Ranga
 
 ## Yousif Hassan
 **What does it mean to decolonize AI ethics?**
+
 Focuses on development of AI in the African context. He points out that AI Guidelines are being developed by largely western nations (‘just restating the obvious to make sure we're all on the same page’). Then the Global South attempts to adopt these frameworks (embedded western epistemologies).
 
 His overarching questions
@@ -244,7 +260,7 @@ Questions
 I appreciated Yousif’s call to “move the project of theory making to the south” as I think there is a great deal of knowledge that is trapped at the periphery, or excluded entirely, because it doesn’t fit dominant narratives. When I heard his talk I was immediately reminded of the Stanford HAI’s recent talk with Sabelo Sethu Mhlambi, [The Movement to Decolonize AI: Centering Dignity Over Dependency](https://hai.stanford.edu/news/movement-decolonize-ai-centering-dignity-over-dependency). I believe that the idea of “decolonializing AI” takes more than just changing the focus or allowing communities to participate. I feel it requires us to approach communities in a new way. 
 
 I’m also reminded of Tyson Yunkaporta’s book, [Sand Talk](https://www.harpercollins.com/products/sand-talk-tyson-yunkaporta?variant=32280908103714), because it discusses a way of approaching people that keeps them in focus the entire time. In short it’s a methodology of approaching a community using a framework of Respect --> Connect --> Reflect --> Direct.
-1) **Respect** first by acknowledging, accepting, and supporting their autonomy and way of thinking. 
-2) **Connect** with the community, and its individual members. The focus must be on what they need, want, and can sustain. 
-3) **Reflect** on what, if anything, you have to offer them and whether or not they want you to be a part of a “solution”. 
-4) **Direct** the creation of any solution alongside the community in an act of partnership and mutual interest.
+1. **Respect** first by acknowledging, accepting, and supporting their autonomy and way of thinking. 
+2. **Connect** with the community, and its individual members. The focus must be on what they need, want, and can sustain. 
+3. **Reflect** on what, if anything, you have to offer them and whether or not they want you to be a part of a “solution”. 
+4. **Direct** the creation of any solution alongside the community in an act of partnership and mutual interest.
