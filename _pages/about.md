@@ -7,9 +7,9 @@ Hello, my name is Nathan Butters. Feel free to call me “Nathan” or “Butter
 
 I believe we need to acknowledge our place within the world upfront so that others can interact with the rest of what we offer with awareness of our limitations. So, I focus this page around a statement of positionality (see below). It may work, it may not. 
 
-In general, I try to take a little space to acknowledge who I am during conversations, even when it's difficult or uncomfortable, because it brings into the open implicit power dynamics at play. I've never written anything down for public consumption so this stands as a first. Any feedback on it is appreciated.
-
 > "Positionality is the notion that personal values, views, and location in time and space influence how one understands the world. In this context, gender, race, class, and other aspects of identities are indicators of social and spatial positions and are not fixed, given qualities. Positions act on the knowledge a person has about things, both material and abstract. Consequently, knowledge is the product of a specific position that reflects particular places and spaces." - Luis Sánchez, accessed on the [Anti-Racist Teaching Collective](https://www.arteachingcollective.com/positionality.html)
+
+In general, I try to make a little space to acknowledge who I am during conversations, even when it's difficult or uncomfortable, because it brings into the open implicit power dynamics at play. I've never written anything down for public consumption so this stands as a first. Any feedback on it is appreciated.
 
 ## What are my known biases (and privileges)?
 
