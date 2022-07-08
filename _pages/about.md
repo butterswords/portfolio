@@ -13,7 +13,7 @@ In general, I try to take a little space to acknowledge who I am during conversa
 
 ## What are my known biases (and privileges)?
 
-I am a cis-gender, straight, white man from a middle class family in America. I was raised Catholic. I attended a public charter high school, [Illinois Math and Science Academy (IMSA)](https://www.imsa.edu), and private colleges for my undergraduate degree, [Illinois Wesleyan University (IWU)](https://www.iwu.edu/), and my Master's, [Yale Divinity School (YDS)](https://divinity.yale.edu/). I have worked for tech giants for the last 5+ years: [AWS](https://aws.amazon.com/) and [Tableau](https://www.tableau.com)&mdash;now part of [Salesforce](https://www.salesforce.com). 
+I am a cis-gender, straight, white man from a middle class family in the United States of America. I was raised Catholic. I attended a public charter high school, [Illinois Math and Science Academy (IMSA)](https://www.imsa.edu), and private colleges for my undergraduate degree, [Illinois Wesleyan University (IWU)](https://www.iwu.edu/), and my Master's, [Yale Divinity School (YDS)](https://divinity.yale.edu/). I have worked for tech giants for the last 5+ years: [AWS](https://aws.amazon.com/) and [Tableau](https://www.tableau.com)&mdash;now part of [Salesforce](https://www.salesforce.com). 
 
 I point these things out because they highlight how privileged I am by birth and the choices I've made throughout my life. These things have formed who I am and I cannot change them as they are now the historical "facts" of my life. Others may judge me in particular ways based on this information and I will not say they are wrong to do so.
 
