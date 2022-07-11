@@ -60,7 +60,7 @@ Sphero has many robots targeted at different age groups. The Indi seemed most ge
 A cute wooden robot that has a lot of character. It has a separate board to program the motions so that a child can learn they have the ability to affect things from a distance. It has mats that can be used to tell stories and provide more ways for kids to imagine how to interact.
 
 * Pro - completely screenless, even the more advanced code elements are done through different shaped pieces
-* Con - it did not seem capable of evolving with my son so much as they want to buy story packs as a way to increase replayability and creativity
+* Con - it did not seem capable of evolving with my son so much as they want you to buy story packs to increase replayability and creativity
 
 ### [Cubelets](https://modrobotics.com/cubelets-for-home/)
 <img src="https://modrobotics.com/wp-content/uploads/2021/02/cubelets-discovery-set-home.png" alt="Cubelets" width="400px"/>
@@ -100,7 +100,7 @@ It has challenge cards that, without any words, teach the mechanics of the robot
 
 >Note: As a father I encourage anyone reading this to be more patient with their kids when they lose focus. It is critical to give them space to process when they stop trying to make things work. I admit it frustrates me, especially when it's accompanied with faux plaintive screaming to try to manipulate me. I know it's part of my son's development and I have to control my reactions to ensure he has a great experience.
 
-The cost was reasonable. Compared to some of the others I mention it ranges from $80-120, depending on if you get the school version or the home version. I went with the school version because I want the higher quality materials that will last longer. Even spending the extra money it's a hundred dollars less than some of the other options.
+The cost was reasonable. Compared to some of the others I mention it ranges from $80-120&mdash;depending on if you get the school version or the home version. I went with the school version because I want the higher quality materials that will last longer. Even spending the extra money it's a hundred dollars less than some of the other options.
 
 Lastly, the app provides enough additional functionality that I know my son will be able to use this for years to come without outgrowing it. By that time I hope he'll be ready to teach a younger sibling how to use it. 
 
