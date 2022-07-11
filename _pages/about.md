@@ -7,13 +7,13 @@ Hello, my name is Nathan Butters. Feel free to call me “Nathan” or “Butter
 
 I believe we need to acknowledge our place within the world upfront so that others can interact with the rest of what we offer with awareness of our limitations. So, I focus this page around a statement of positionality (see below). It may work, it may not. 
 
-In general, I try to take a little space to acknowledge who I am during conversations, even when it's difficult or uncomfortable, because it brings into the open implicit power dynamics at play. I've never written anything down for public consumption so this stands as a first. Any feedback on it is appreciated.
-
 > "Positionality is the notion that personal values, views, and location in time and space influence how one understands the world. In this context, gender, race, class, and other aspects of identities are indicators of social and spatial positions and are not fixed, given qualities. Positions act on the knowledge a person has about things, both material and abstract. Consequently, knowledge is the product of a specific position that reflects particular places and spaces." - Luis Sánchez, accessed on the [Anti-Racist Teaching Collective](https://www.arteachingcollective.com/positionality.html)
+
+In general, I try to make a little space to acknowledge who I am during conversations, even when it's difficult or uncomfortable, because it brings into the open implicit power dynamics at play. I've never written anything down for public consumption so this stands as a first. Any feedback on it is appreciated.
 
 ## What are my known biases (and privileges)?
 
-I am a cis-gender, straight, white man from a middle class family in America. I was raised Catholic. I attended a public charter high school, [Illinois Math and Science Academy (IMSA)](https://www.imsa.edu), and private colleges for my undergraduate degree, [Illinois Wesleyan University (IWU)](https://www.iwu.edu/), and my Master's, [Yale Divinity School (YDS)](https://divinity.yale.edu/). I have worked for tech giants for the last 5+ years: [AWS](https://aws.amazon.com/) and [Tableau](https://www.tableau.com)&mdash;now part of [Salesforce](https://www.salesforce.com). 
+I am a cis-gender, straight, white man from a middle class family in the United States of America. I was raised Catholic. I attended a public charter high school, [Illinois Math and Science Academy (IMSA)](https://www.imsa.edu), and private colleges for my undergraduate degree, [Illinois Wesleyan University (IWU)](https://www.iwu.edu/), and my Master's, [Yale Divinity School (YDS)](https://divinity.yale.edu/). I have worked for tech giants for the last 5+ years: [AWS](https://aws.amazon.com/) and [Tableau](https://www.tableau.com)&mdash;now part of [Salesforce](https://www.salesforce.com). 
 
 I point these things out because they highlight how privileged I am by birth and the choices I've made throughout my life. These things have formed who I am and I cannot change them as they are now the historical "facts" of my life. Others may judge me in particular ways based on this information and I will not say they are wrong to do so.
 
